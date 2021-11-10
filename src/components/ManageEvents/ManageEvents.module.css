@@ -1,0 +1,61 @@
+.scrollbar {
+    overflow-x: auto;
+}
+
+.table, th, td {
+    border: 1.5px solid black;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tablerows:hover {
+    background-color: powderblue;
+}
+
+th {
+    background-color: plum;
+    height: 60px;
+}
+
+td {
+    height: 30px;
+    text-align: center;
+    font-style: oblique;
+    font-family: cursive;
+}
+
+.activity {
+    display: inline-flex;
+    width: 100%;
+}
+
+.editBtn, .deleteBtn {
+    cursor: pointer;
+    cursor: pointer;
+    background-color: rgb(63, 100, 168);
+    border: 1.5px solid black;
+    margin: auto;
+    padding: 11px 17px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    color: wheat;
+}
+
+.notowner {
+    background-color: rgb(63, 100, 168);
+    border: 1.5px solid black;
+    color: wheat;
+    margin: auto;
+    padding: 11px 0px;
+    width: 99%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

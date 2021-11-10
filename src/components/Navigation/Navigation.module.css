@@ -1,0 +1,46 @@
+nav {
+    background-color: #38015c;
+    overflow: hidden;
+}
+
+nav button {
+    background-color: rgb(63, 100, 168);
+    border: 1px solid rgb(91, 46, 112);
+    border-width: 3px;
+    border-radius: 10px;
+    width: 200px;
+    overflow: hidden;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a, nav span {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 17px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover, nav button:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+nav a, #common {
+    float: left;
+}
+
+nav a.active {
+    background-color: rgb(63, 100, 168);
+    color: white;
+}
+
+.profile {
+    float: right;
+}

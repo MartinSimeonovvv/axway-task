@@ -1,13 +1,44 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    background-color: rgb(210, 241, 241);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.homeimage {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 20px;
+    height: auto;
+    display: block;
+    width: auto;
+    margin: auto;
+}
+
+.homeimage:hover {
+    box-shadow: 0 10px 30px 1px rgba(0, 140, 186, 0.5);
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.polaroid:hover .image {
+    opacity: 0.3;
+}
+
+.polaroid:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    border-radius: 15px;
+    background-color: #4d15a8;
+    color: white;
+    font-size: 32px;
+    padding: 16px 32px;
 }

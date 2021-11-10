@@ -1,0 +1,26 @@
+.scrollbar {
+    overflow-x: auto;
+}
+
+.table, th, td {
+    border: 1.5px solid black;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tablerows:hover {
+    background-color: powderblue;
+}
+
+th {
+    background-color: plum;
+    height: 60px;
+}
+
+td {
+    height: 30px;
+    text-align: center;
+}
